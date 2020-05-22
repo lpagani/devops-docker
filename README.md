@@ -1,2 +1,2 @@
 # devops-docker
-Mooc.fi DevOps with Docker, course assignments (2019)
+Mooc.fi DevOps with Docker, course assignments (2020)

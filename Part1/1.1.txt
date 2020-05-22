@@ -1,0 +1,5 @@
+[root@localhost ~]# docker ps -a
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS                     PORTS               NAMES
+3fb777a46228        tomcat              "catalina.sh run"        6 minutes ago       Up 6 minutes               8080/tcp            festive_bohr
+25030a0ee742        postgres            "docker-entrypoint..."   7 minutes ago       Up 7 minutes               5432/tcp            gallant_kirch
+58f6266c6e24        nginx               "nginx -g 'daemon ..."   7 minutes ago       Exited (0) 2 seconds ago                       happy_jones

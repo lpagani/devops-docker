@@ -1,0 +1,14 @@
+[root@localhost Part1]# docker build --no-cache -t docker-clock .
+Sending build context to Docker daemon 3.584 kB
+Step 1/2 : FROM devopsdockeruh/overwrite_cmd_exercise
+ ---> 3d2b622b1849
+Step 2/2 : CMD -c 30
+ ---> Running in 795ddb8caa29
+ ---> 5f2ed243e717
+Removing intermediate container 795ddb8caa29
+Successfully built 5f2ed243e717
+[root@localhost Part1]# docker run docker-clock
+31
+32
+33
+34

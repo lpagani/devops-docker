@@ -1,0 +1,16 @@
+[root@localhost ~]# docker run -d --name exercise14 devopsdockeruh/exec_bash_exercise
+[root@localhost ~]# docker exec -it exercise14 bash
+root@79278f5681d6:/usr/app# ls
+Dockerfile  README.md  index.js  logs.txt
+root@79278f5681d6:/usr/app# tail -f logs.txt
+"Docker is easy"
+Thu, 16 Apr 2020 06:36:53 GMT
+Thu, 16 Apr 2020 06:36:56 GMT
+Thu, 16 Apr 2020 06:36:59 GMT
+Thu, 16 Apr 2020 06:37:02 GMT
+Secret message is:
+"Docker is easy"
+Thu, 16 Apr 2020 06:37:08 GMT
+Thu, 16 Apr 2020 06:37:11 GMT
+Thu, 16 Apr 2020 06:37:14 GMT
+^C
