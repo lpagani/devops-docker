@@ -1,0 +1,8 @@
+# git clone https://github.com/docker-hy/spring-example-project
+# cd spring-example-project
+# emacs Dockerfile
+# docker build -t spring-example .
+# docker run -p 8080:8080 spring-example
+
+Result: open address in browser, clicking "Press Here" button shows Success message
+

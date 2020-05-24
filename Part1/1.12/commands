@@ -1,0 +1,10 @@
+# Frontend
+# docker build -t frontend-example .
+# docker run -p 5000:5000 frontend-example
+
+# Backend
+# docker build -t backend-example .
+# docker run -v $(pwd)/logs.txt:/logs.txt -p 8000:8000 backend-example
+
+Result:
+Press To Test button turns green and "Working!" text appears.

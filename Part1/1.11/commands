@@ -1,0 +1,14 @@
+# git clone https://github.com/docker-hy/backend-example-docker
+# cd backend-example-docker
+# emacs Dockerfile
+# docker build -t backend-example .
+# touch logs.txt
+# docker run -v $(pwd)/logs.txt:/logs.txt -p 8000:8000 backend-example
+[..]
+Started on port 8000
+
+Browser:
+Port configured correctly, generated message in logs.txt
+
+# cat logs.txt
+5/24/2020, 12:12:35 PM: Connection received in root

@@ -1,0 +1,10 @@
+# git clone https://github.com/docker-hy/frontend-example-docker
+# cd frontend-example-docker
+# emacs Dockerfile
+# docker build -t frontend-example .
+# docker run -p 5000:5000 frontend-example
+[..]
+INFO: Accepting connections at http://localhost:5000
+
+Access via browser:
+Exercise 1.10: Congratulations! You configured your ports correctly!

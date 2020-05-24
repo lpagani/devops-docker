@@ -1,0 +1,8 @@
+# git clone https://github.com/docker-hy/rails-example-project
+# cd rails-example-project
+# emacs Dockerfile
+# docker build -t rails-example .
+# docker run -p 3000:3000 rails-example
+
+Result: open address in browser, "button press counter" -webapp is shown
+
